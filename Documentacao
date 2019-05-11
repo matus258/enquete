@@ -1,0 +1,40 @@
+1 enquetes existentes
+
+2 criar enquete
+3 Formulario
+
+3.1 Nome da enquete
+3.2 quantidade de perguntas
+
+
+4 Criar aba de cada pergunta
+
+4.1 Texto Descritivo
+
+4.2 alternativa a
+
+    alternativa b
+
+    alternativa c
+
+    alternativa d
+ 
+    alternativa e
+
+4.3 Alternativa correta
+
+4.4 Adicionar questão
+
+4.5 Proxima
+
+4.6 voltar
+
+4.7 Tempo para cada pergunta
+
+4.8 cronometro
+
+4.9 som de certo e errado
+
+5 Revisar
+
+5.1 Completar enquete
