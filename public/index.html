@@ -44,11 +44,78 @@
         </form>
         <form name='formPergunta' hidden>
             <div class="container">
-                <div class="col-sm-2">
+                <label id="titulo" class="col-form-label"><h1>Pergunta 1</h1></label>
+                <div class="col-auto">
                     <div class="form-group row">
-                        <label for="qntPerguntas" class="col-form-label">Digite a descrição da pergunta:</label>
+                        <label for="descricaoPerguntas" class="col-form-label">Descrição da pergunta:</label>
+                    </div>
+                    <div class="col-12">
+                        <textarea class="form-control" rows="5" id="descricaoPergunta" name="text"></textarea>
                     </div>
                 </div>
+                <div class="col-auto">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">A</span>
+                        </div>
+                        <input type="text" class="form-control" id="alternativaA" placeholder="Digite a alternativa A">
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">B</span>
+                        </div>
+                        <input type="text" class="form-control" id="alternativaB" placeholder="Digite a alternativa B">
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">C</span>
+                        </div>
+                        <input type="text" class="form-control" id="alternativaC" placeholder="Digite a alternativa C">
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">D</span>
+                        </div>
+                        <input type="text" class="form-control" id="alternativaD" placeholder="Digite a alternativa D">
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">E</span>
+                        </div>
+                        <input type="text" class="form-control" id="alternativaE" placeholder="Digite a alternativa E">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="form-group row">
+                        <label for="alternativaCerta" class="col-form-label">Escolha qual será a alternativa correta:</label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" id="alternativaCertaA">Alternativa A
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" id="alternativaCertaB">Alternativa B
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" id="alternativaCertaC">Alternativa C
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" id="alternativaCertaD">Alternativa D
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" id="alternativaCertaE">Alternativa E
+                        </label>
+                    </div>
+                </div>
+                <button type="button"id="proxPergunta" class="btn btn-primary form-control" onclick="proximaPergunta()"> Proxima</button>
             </div>
         </form>
 
